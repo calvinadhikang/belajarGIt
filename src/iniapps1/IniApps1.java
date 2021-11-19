@@ -17,6 +17,9 @@ public class IniApps1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("welcome");
+        
+        User u = new User("calvin", "11");
+        System.out.println(u.toString());
     }
     
 }
