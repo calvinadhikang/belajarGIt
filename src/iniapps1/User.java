@@ -16,4 +16,9 @@ public class User {
         this.nama = nama;
         this.umur = umur;
     }
+    
+    @Override
+    public String toString(){
+        return nama + " - " + umur;
+    }
 }
